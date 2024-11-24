@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+# Actividad-Previa-10
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Orden
+Hola,
+Acceda al [repositorio de Github](https://github.com/DAWMFIEC/DAWM)
+ en la rama main, y realice del **Capítulo04/ejercicio07** al **Capítulo04/ejercicio08.** 
+En cada ejercicio, ejecute los test, muestre (comando echo (Enlaces a un sitio externo.)) su nombre y el nombre ejercicio correspondiente, con el comando: 
+En cada ejercicio, ejecute los test, muestre (comando [`echo`](https://www.delftstack.com/es/howto/batch/echo-command-in-batch/#google_vignette) 🔗) su nombre y el nombre ejercicio correspondiente, con el comando: 
+```bash
+npm test && echo "SU NOMBRE COMPLETO" && echo "Cxx/Eyy"
 ```
+Por ejemplo:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+![image](https://github.com/user-attachments/assets/2ff34391-06da-4f34-beae-c7994a975f80)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+Para esta actividad, haga una captura de pantalla del resultado de la ejecución del comando anterior DE CADA UNO de los ejercicios, por ejemplo:
+
+## Resultados
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/38b2c4e7-d946-4c04-8ebc-f1d2e3659878">
+
+
+
+
+## Codigo
+-  [Ejercicio 7](https://github.com/Desarrollo-Aplicaciones-Web-y-Moviles/Actividad-Previa-10/tree/main/C04E07)
+-  [Ejercicio 8](https://github.com/Desarrollo-Aplicaciones-Web-y-Moviles/Actividad-Previa-10/tree/main/C04E08)
